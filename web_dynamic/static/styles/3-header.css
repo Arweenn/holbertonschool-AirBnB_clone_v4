@@ -4,8 +4,23 @@ header {
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
 }
+
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+#api_status {
+    position: absolute;
+    right: 0px;
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.available {
+    background-color: #ff545f;
 }
