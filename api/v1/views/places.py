@@ -10,6 +10,7 @@ from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request
 from flasgger.utils import swag_from
 
+    
 
 @app_views.route('/cities/<city_id>/places', methods=['GET'],
                  strict_slashes=False)
